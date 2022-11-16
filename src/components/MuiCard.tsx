@@ -7,6 +7,8 @@ import {
   Button,
   CardMedia,
 } from "@mui/material";
+// import FavoriteIcon from "@mui/icons-material/Favorite";
+import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
 
 export const MuiCard = () => {
   return (
@@ -19,7 +21,8 @@ export const MuiCard = () => {
           alt="unsplash image"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h3" component="div">
+            <IntegrationInstructionsIcon fontSize="large" color="info" />
             React
           </Typography>
           <Typography variant="body2" color="text.secondary">

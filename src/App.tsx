@@ -1,5 +1,13 @@
 import "./App.css";
-import { MuiCard } from "./components/MuiCard";
+import { MuiBottomNavigation } from "./components/MuiBottomNavigation";
+// import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
+// import { MuiDrawer } from "./components/MuiDrawer";
+// import { MuiLink } from "./components/MuiLink";
+// import { MuiNavbar } from "./components/MuiNavbar";
+// import { MuiSpeedDial } from "./components/MuiSpeedDial";
+// import { MuiImageList } from "./components/MuiImageList";
+// import { MuiAccordion } from "./components/muiAccordion";
+// import { MuiCard } from "./components/MuiCard";
 // import { MuiLayout } from "./components/MuiLayour";
 // import { MuiAutocomplete } from "./components/muiAutocomplete";
 // import { MuiRating } from "./components/MuiRating";
@@ -24,7 +32,15 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      {/* <MuiAccordion /> */}
+      {/* <MuiImageList /> */}
+      {/* <MuiNavbar /> */}
+      {/* <MuiLink /> */}
+      {/* <MuiBreadcrumbs /> */}
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      <MuiBottomNavigation />
     </div>
   );
 }
