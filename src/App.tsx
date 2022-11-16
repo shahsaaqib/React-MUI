@@ -1,6 +1,19 @@
 import "./App.css";
-import { MuiChip } from "./components/MuiChip";
-import { MuiTooltip } from "./components/MuiTooltip";
+import { MuiMasonry } from "./components/MuiMasonry";
+// import { MuiTimeline } from "./components/MuiTimeline";
+// import { LocalizationProvider } from "@mui/lab";
+// import AdapterDateFns from "@mui/lab/AdapterDateFns";
+// import { MuiTabs } from "./components/MuiTabs";
+// import { MuiDateTimePicker } from "./components/MuiDateTimePicker";
+// import { MuiLoadingButton } from "./components/MuiLoadingButton";
+// import { MuiSkeleton } from "./components/MuiSkeleton";
+// import { MuiDialog } from "./components/MuiDialog";
+// import { MuiProgress } from "./components/MuiProgress";
+// import { MuiAlert } from "./components/MuiAlert";
+// import { MuiSnackbar } from "./components/MuiSnackbar";
+// import { MuiTable } from "./components/MuiTable";
+// import { MuiChip } from "./components/MuiChip";
+// import { MuiTooltip } from "./components/MuiTooltip";
 // import { MuiList } from "./components/MuiList";
 // import { MuiAvatar } from "./components/MuiAvatar";
 // import { MuiBadge } from "./components/MuiBadge";
@@ -26,6 +39,7 @@ import { MuiTooltip } from "./components/MuiTooltip";
 
 function App() {
   return (
+    // <LocalizationProvider dateAdapter={AdapterDateFns}>
     <div className="App">
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
@@ -49,9 +63,21 @@ function App() {
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
       {/* <MuiList /> */}
-      <MuiChip />
-      <MuiTooltip />
+      {/* <MuiChip /> */}
+      {/* <MuiTooltip /> */}
+      {/* <MuiTable /> */}
+      {/* <MuiAlert /> */}
+      {/* <MuiSnackbar></MuiSnackbar> */}
+      {/* <MuiDialog /> */}
+      {/* <MuiProgress /> */}
+      {/* <MuiSkeleton /> */}
+      {/* <MuiLoadingButton /> */}
+      {/* <MuiDateTimePicker /> */}
+      {/* <MuiTabs /> */}
+      {/* <MuiTimeline /> */}
+      <MuiMasonry />
     </div>
+    // </LocalizationProvider>
   );
 }
 
